@@ -37,6 +37,16 @@
 
 
 
+   <style>
+    body{
+       background-image: url(https://ownlight.cn/img/back.b2dc706f.png);
+       background-repeat:no-repeat;
+       background-size: 100% 100%;
+       background-attachment:fixed;
+    }
+</style>
+
+
 
 <body>
     <header class="navbar-fixed">
@@ -666,13 +676,13 @@
 <script src="/libs/gitalk/gitalk.min.js"></script>
 <script>
     let gitalk = new Gitalk({
-        clientID: '',
-        clientSecret: '',
-        repo: '',
-        owner: '',
-        admin: null,
+        clientID: 'b9469e33b20e06f70b4d',
+        clientSecret: '2aec8ec9dd5263c84f752a17647c882fe1136948',
+        repo: 'moonLight-yzy.github.io',
+        owner: 'moonLight-yzy',
+        admin: "moonLight-yzy",
         id: '2021-11-11T20-00-08',
-        distractionFreeMode: false  // Facebook-like distraction free mode
+        distractionFreeMode: true  // Facebook-like distraction free mode
     });
 
     gitalk.render('gitalk-container');
@@ -1155,6 +1165,15 @@ $(function () {
     
 
     
+        
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
+            }
+        </script>
+    
 
     <!-- 雪花特效 -->
     
@@ -1194,9 +1213,20 @@ $(function () {
     <!--腾讯兔小巢-->
     
     
-
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
     
 
+    
+    
+    <script type="text/javascript" size="150" alpha='0.6'
+        zIndex="-1" src="/libs/background/ribbon-refresh.min.js" async="async"></script>
+    
+
+    
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
     
 
     
